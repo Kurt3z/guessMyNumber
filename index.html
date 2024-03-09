@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="configs">
+          <button class="btn reset">Reset Game</button>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="username-input"
+            placeholder="Insert your player name"
+          />
+          <button type="submit" class="btn submit">Submit</button>
+        </div>
+
+        <div class="info">
+          <p class="highscore-label">🏆 Highscore: <span class="highscore">0</span></p>
+          <p class="player-label">🚹 Player: <span class="player">Tiago</span></p>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-game-area">
+        <h1 class="heading">Guess My Number!</h1>
+        <div class="secret-number-box">
+          <p class="number">?</p>
+        </div>
+      </div>
+
+      <div class="player-actions">
+        <div class="actions">
+          <div class="input-box">
+            <input type="number" name="guess" id="guess" class="guess" placeholder="Insert your guess" />
+          </div>
+          <button type="submit" class="btn btn--guess">Guess</button>
+          <div class="tries">
+            <span class="try-1">💗</span>
+            <span class="try-2">💗</span>
+            <span class="try-3">💗</span>
+            <span class="try-4">💗</span>
+            <span class="try-5">💗</span>
+            <span class="try-6">💗</span>
+            <span class="try-7">💗</span>
+            <span class="try-8">💗</span>
+            <span class="try-9">💗</span>
+            <span class="try-10">💗</span>
+            <span class="try-11">💗</span>
+            <span class="try-12">💗</span>
+            <span class="try-13">💗</span>
+            <span class="try-14">💗</span>
+            <span class="try-15">💗</span>
+            <span class="try-16">💗</span>
+            <span class="try-17">💗</span>
+            <span class="try-18">💗</span>
+            <span class="try-19">💗</span>
+            <span class="try-20">💗</span>
+          </div>
+          <p class="score-label">Score: <span class="score">20</span></p>
+        </div>
+
+        <div class="player-info">
+          <p class="heading-secondary">Message BOX</p>
+          <div class="messages">
+            <p class="message"><span class="prompt"> &raquo;</span>Start by trying to guess the number</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
