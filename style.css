@@ -139,7 +139,7 @@ main {
 .actions {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 1.6rem;
 }
 
@@ -196,12 +196,13 @@ main {
 
 .messages {
   font-size: 1.4rem;
-  min-height: 10rem;
+  max-height: 20rem;
   padding: 1.6rem 1.6rem;
   background-color: #adb5bd;
   color: #343a40;
   font-weight: 700;
   border-radius: 11px;
+  overflow-y: auto;
 
   display: flex;
   flex-direction: column;
