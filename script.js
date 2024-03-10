@@ -36,7 +36,6 @@ const appendMessage = function (message) {
 let secretNumber = generateSecretNumber();
 let score = 20;
 let highscore = 0;
-console.log(secretNumber);
 
 window.addEventListener("load", function () {
   createHearts(20);
@@ -54,7 +53,7 @@ guessBtn.addEventListener("click", function () {
   const guess = Number(guessInputEl.value);
   const message = document.createElement("p");
   const username = playerLabelEl.textContent;
-  console.log(username);
+
   if (!username) {
     alert("Please insert a username to start playing!");
   } else {
