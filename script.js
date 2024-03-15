@@ -37,9 +37,7 @@ let secretNumber = generateSecretNumber();
 let score = 20;
 let highscore = 0;
 
-window.addEventListener("load", function () {
-  createHearts(20);
-});
+createHearts(20);
 
 usernameSubmitBtn.addEventListener("click", function () {
   if (username) {
